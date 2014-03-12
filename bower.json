@@ -1,0 +1,25 @@
+{
+  "name": "brunch-vue-skeleton",
+  "version": "0.0.0",
+  "authors": [
+    "Koutarou Chikuba <miz404@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "overrides": {
+    "processing": {
+        "main": "processing.js"
+    }
+  },
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "chai": "~1.9.0",
+    "processing": "~1.4.0"
+  }
+}
